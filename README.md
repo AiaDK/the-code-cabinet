@@ -11,5 +11,5 @@ Welcome to my personal collection of coding projects, exercises, and data explor
 
 Each section is organized by platform or topic, with clear explanations, clean code, and brief reflections on what I’ve learned.
 
-This is an evolving space — I update it regularly as I grow in my journey as a data scientist and problem-solver.
+This is an evolving space — I update it regularly as I grow in my journey as a data scientist.
 
