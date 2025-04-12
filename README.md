@@ -2,7 +2,7 @@
 
 A curated collection of Python, SQL, and data science projects — from challenges to competitions — neatly organized in one place.
 
-Welcome to my personal collection of coding projects, exercises, and data explorations. This repository is a curated space where I document and showcase my work across various platforms, including Kaggle, Stratascratch, Checkio, and Hackerrank.
+Welcome to my personal collection of coding projects, exercises, and data explorations. This repository is a curated space where I document and showcase my work across various platforms.
 
 🛠 **What’s inside:**
 - Python & SQL challenges from interview prep platforms  
