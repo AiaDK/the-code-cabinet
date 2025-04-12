@@ -5,7 +5,7 @@ A practical reference for working with Git and GitHub via Git Bash, tailored for
 Navigate to your project folder (adjust the path if needed):
 
 ```bash
-cd /c/Users/Aickolpon/Desktop/Studies/projects/the-code-cabinet
+cd /your/path
 ```
 
 If starting a new Git project:
