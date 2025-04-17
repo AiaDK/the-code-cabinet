@@ -1,0 +1,76 @@
+\documentclass{article} % Sets the document class to 'article' (good default for most things)
+
+\usepackage[margin=2.5cm]{geometry} % Sets 2.5 cm margin on all sides
+\usepackage[utf8]{inputenc} % Allows input of UTF-8 characters (e.g., ä, ö, ü)
+\usepackage{amsmath, amssymb} % Math symbols and environments
+\usepackage{graphicx} % Allows including images
+\usepackage{hyperref} % Makes URLs and references clickable
+\usepackage{enumitem} % Customizable lists
+\setlength{\parindent}{0pt} % Disable all paragraph indents
+
+\title{My First LaTeX Document} % Title of the document
+\author{Your Name} % Author name
+\date{\today} % Sets date to today's date
+
+\begin{document} % Start of the content
+
+\maketitle % Generates the title using \title, \author, \date
+
+\section{Introduction} % Creates a numbered section
+This is a simple introduction to \LaTeX. % Backslash LaTeX prints the LaTeX logo
+
+\subsection{Text Formatting} % Subsection under Introduction
+This is \textbf{bold}, \textit{italic}, and \underline{underlined} text. % Basic text formatting
+
+You can also use \verb|inline code| or \texttt{monospace text}. % Inline code examples
+
+\section{Math Mode} % New section
+Inline math: \( a^2 + b^2 = c^2 \) % Inline math in parentheses
+
+Display math:
+\[ % Begin display (centered) math environment
+\int_0^1 x^2\,dx = \frac{1}{3} % Definite integral from 0 to 1 of x^2, equals 1/3
+\] % End display math
+
+\begin{align} % Align equations at equal signs
+  a &= b + c \\ % First equation with alignment on '='
+  x &= y + z % Second equation with alignment on '='
+\end{align} % End of aligned equations block
+
+\section{Lists} % New section for lists
+\begin{itemize} % Bullet point list
+  \item First item % First bullet point
+  \item Second item % Second bullet point
+\end{itemize} % End of bullet point list
+
+\begin{enumerate} % Numbered list
+  \item First item % First numbered item
+  \item Second item % Second numbered item
+\end{enumerate} % End of numbered list
+
+\section{Links and References} % New section for links and referencing
+Visit \href{https://www.latex-project.org}{LaTeX Project}. % Insert a clickable URL
+See Figure~\ref{fig:example}. % Reference a figure by label
+
+\section{Tables} % New section for tables
+\begin{tabular}{|c|c|} % Begin tabular environment with two centered columns and vertical bars
+  \hline % Horizontal line at the top of the table
+  A & B \\ % First row: A and B, separated by '&', end row with '\\'
+  \hline % Horizontal line below the first row
+  1 & 2 \\ % Second row: 1 and 2
+  3 & 4 \\ % Third row: 3 and 4
+  \hline % Horizontal line at the bottom of the table
+\end{tabular} % End tabular environment
+
+\section{Inserting Images} % Starts a new section titled "Inserting Images"
+\begin{figure}[h] % Begins a figure environment; [h] = "here" – place figure approximately here in the text
+  \centering % Centers the image horizontally within the figure
+  \includegraphics[width=0.5\textwidth]{example-image} % Inserts the image file named "example-image" at 50% of text width
+  \caption{An example image} % Adds a caption below the image
+  \label{fig:example} % Labels the figure so you can refer to it later with \ref{}
+\end{figure} % Ends the figure environment
+
+\section{Conclusion} % New section titled "Conclusion"
+This document covered basic LaTeX features for beginners. % Summary of content
+
+\end{document} % End of the content
